@@ -5,7 +5,7 @@ Rails.application.routes.draw do
 
   # Users
   post '/signup', to: 'users#create'
-  get '/me', to: 'useres#show'
+  get '/me', to: 'users#show'
 
   # Sessions
   post '/login', to: 'sessions#create'
